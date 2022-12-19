@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import static java.lang.Integer.*;
 
 public class bill {
     private JTextField textFieldON;
@@ -59,6 +58,7 @@ public class bill {
             textFieldAm.setText("");
             textFieldTop.setText("");
             textFieldCuN.setText("");
+            textFieldQ.setText("");
             cheeseCheckBox.setSelected(false);
             tomatoCheckBox.setSelected(false);
             onionCheckBox.setSelected(false);
